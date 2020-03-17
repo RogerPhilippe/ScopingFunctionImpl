@@ -2,6 +2,17 @@ package main
 
 fun main() {
 
+    /**
+     *
+     *  / Scope Function    / Object Reference as   / Return
+     *  / apply             / this                  / the object
+     *  / also              / it                    / the object
+     *  / let               / it                    / last statement
+     *  / run               / this                  / last statement
+     *  / with              / this                  / last statement
+     *
+     */
+
     val personLateInit: Person? = null
     val attributes = Pair("Tony Stark", 30)
 
